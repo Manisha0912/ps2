@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS-Task2</title>
+</head>
+<body>
+
+    <script>
+
+// 1.Movie Ticket Booking System
+
+// Problem: Create a program for booking movie tickets where a user chooses a movie and seat category. The options should be:
+
+// Movie:
+
+// Action: Standard Seat - 10rs, VIP Seat - 20rs
+
+// Comedy: Standard Seat - 8rs, VIP Seat - 15rs
+
+let movie=prompt("enter movie type:").toLowerCase();
+ let cat=prompt("enter movie category:").toLowerCase();
+switch(movie){
+    case "action":
+        switch(cat){
+            case "standard":
+                console.log("10rs")
+                break;
+                case "VIP":
+                    console.log("20rs")
+                    break;
+                    default:
+                    console.log("enter proper category");
+                    break;
+                }
+                break;
+                case "comedy":
+                    switch(cat){
+                        case "standard":
+                            console.log("8rs")
+                            break;
+                            case "VIP":
+                                console.log("15rs")
+                                break;
+                                default:
+                    console.log("enter proper category")
+                    }
+                    break;drama
+                    case "drama":
+                    switch(cat){
+                        case "standard":
+                            console.log("6rs")
+                            break;
+                            case "VIP":
+                                console.log("12rs")
+                                break;
+                                default:
+                    console.log("enter proper category")
+                    }
+                    break;
+                    default:
+                    console.log("enter proper movie type")
+                    
+            }
+            
+
+
+// Design a program that calculates discounts based on product categories (Electronics, Clothing, Grocery). Each category has specific discount rates for different products:
+
+// Electronics: Mobile - 5%, Laptop - 10%
+
+// Clothing: Men - 15%, Women - 20%
+
+// Grocery: Fruits - 5%, Vegetables - 10%
+
+let prod=prompt("enter the product:").toLowerCase();
+let cate=prompt("enter the category:").toLowerCase();
+        switch(prod){
+            case "electronics":
+                switch(cate){
+                    case "mobile":
+                        console.log("Discount is 5%");
+                        break;
+                        case "Laptop":
+                            console.log("Discount is 10%")
+                            break;
+                            default:
+                            console.log("enter proper category")
+                }
+                break;
+                case "clothing":
+                switch(cate){
+                    case "Men":
+                        console.log("Discount is 15%");
+                        break;
+                        case "Women":
+                            console.log("Discount is 20%")
+                            break;
+                            default:
+                            console.log("enter proper category")
+                }
+                break;
+                case "grocery":
+                    switch(cate){
+                    case "fruits":
+                        console.log("Discount is 5%")
+                        break;
+                        case "Vegetables":
+                            console.log("Discount is 10%")
+                            break;
+                            default:
+                            console,log("enter proper category")
+        }
+        break;
+        default:
+        console.log("enter correct product")
+        }
+    
+
+//        Write a travel booking system that allows a user to select a mode of transport (Flight, Train, Bus) and then choose a class or category:
+
+// Flight: Economy, Business
+
+// Train: Sleeper, AC Class
+
+// Bus: Standard, Luxury
+
+        let trans=prompt("enter mode of transport:").toLowerCase();
+ let category
+switch(trans){
+    case "flight":
+        category=prompt("choose category(Economy or Business):").toLowerCase();
+        switch(category){
+            case "economy":
+                console.log("Booking confirmed!(economy)")
+                break;
+                case "business":
+                    console.log("Booking confirmed1(business")
+                    break;
+                    default:
+                    console.log("enter valid category")
+        }
+        break;
+        case "Train":
+            category=prompt("choose category(sleeper or ac class):").toLowerCase();
+            switch(category){
+                case "sleeper":
+                    console.log("Booking confirmed!(Sleeper)")
+                    break;
+                    case "ac class":
+                        console.log("Booking confirned!(Non AC")
+                        break;
+                        default:
+                        console.log("enter valid category")
+            }
+            break;
+            case "bus":
+                category=prompt("choose category(standard or luxury):").toLowerCase();
+                switch(category){
+                    case "standard":
+                        console.log("Booking confirmed!(Standard)")
+                        break;
+                        case "luxury":
+                            console.log("booking confirmed!(Luxury")
+                             break;
+                        default:
+                        console.log("enter valid category")
+            
+                }
+                break;
+                default:
+                console.log("Enter correct mode of transport")
+            
+            
+}
+        
+    </script>
+</body>
+</html>
+    </script>
+</body>
+</html>
